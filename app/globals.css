@@ -1,0 +1,141 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #e0e0e0;
+  --card: #1a1a1a;
+  --card-foreground: #e0e0e0;
+  --popover: #1a1a1a;
+  --popover-foreground: #e0e0e0;
+  --primary: #00ff41;
+  --primary-foreground: #0a0a0a;
+  --secondary: #2a2a2a;
+  --secondary-foreground: #e0e0e0;
+  --muted: #1a1a1a;
+  --muted-foreground: #808080;
+  --accent: #00ff41;
+  --accent-foreground: #0a0a0a;
+  --destructive: #ff0040;
+  --destructive-foreground: #0a0a0a;
+  --border: #2a2a2a;
+  --input: #2a2a2a;
+  --ring: #00ff41;
+  --chart-1: #00ff41;
+  --chart-2: #0080ff;
+  --chart-3: #ff8000;
+  --chart-4: #ff0040;
+  --chart-5: #8000ff;
+  --radius: 0.125rem;
+  --sidebar: #1a1a1a;
+  --sidebar-foreground: #e0e0e0;
+  --sidebar-primary: #00ff41;
+  --sidebar-primary-foreground: #0a0a0a;
+  --sidebar-accent: #2a2a2a;
+  --sidebar-accent-foreground: #e0e0e0;
+  --sidebar-border: #2a2a2a;
+  --sidebar-ring: #00ff41;
+}
+
+/* Removed all gradient colors */
+.code-bg {
+  background-color: #1a1a1a;
+}
+
+.code-border {
+  border: 1px solid #2a2a2a;
+}
+
+.code-glow {
+  box-shadow: 0 0 10px rgba(0, 255, 65, 0.1);
+}
+
+.text-code {
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+.combat-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+@media (min-width: 640px) {
+  .combat-container {
+    padding: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .combat-container {
+    padding: 2rem;
+  }
+}
+
+.combat-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .combat-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .combat-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .combat-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.combat-card {
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 0.125rem;
+  padding: 1rem;
+  transition: all 0.2s ease;
+}
+
+.combat-card:hover {
+  border-color: #00ff41;
+  box-shadow: 0 0 10px rgba(0, 255, 65, 0.1);
+}
+
+.combat-nav {
+  background: #1a1a1a;
+  border-bottom: 1px solid #2a2a2a;
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  .combat-nav {
+    padding: 1rem 2rem;
+  }
+}
+
+.combat-btn {
+  background: #2a2a2a;
+  color: #e0e0e0;
+  border: 1px solid #2a2a2a;
+  border-radius: 0.125rem;
+  padding: 0.5rem 1rem;
+  font-family: 'JetBrains Mono', monospace;
+  transition: all 0.2s ease;
+}
+
+.combat-btn:hover {
+  background-color: #00ff41;
+  color: #0a0a0a;
+  border-color: #00ff41;
+  box-shadow: 0 0 10px rgba(0, 255, 65, 0.2);
+}
