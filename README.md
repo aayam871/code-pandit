@@ -1,30 +1,29 @@
-# Gamified Developer App
+# ⚔️ CodePandit - Combat Coding Platform
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+Welcome to **CodePandit** — the ultimate arena for coders who love to fight bugs, break logic, and sharpen their skills in a warzone of code!
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/aayam-regmis-projects/v0-gamified-developer-app)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/sLdZW8c4XeI)
+## 🚀 Live Demo
+[Click here to visit CodePandit] (https://iam-codersgame.vercel.app/)
 
-## Overview
+> _"Write code like a warrior, debug like a monk."_
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+---
 
-## Deployment
+## 🧠 What is CodePandit?
 
-Your project is live at:
+CodePandit is a developer-focused learning and practice platform where you can:
+- 🧩 Solve coding problems
+- 🛡️ Track your progress
+- ⚔️ Build logic through real challenges
+- 💻 Simulate login/logout and session with local storage
+- 🧑‍💻 Enter using just your username (no email, no password, just pure code)
 
-**[https://vercel.com/aayam-regmis-projects/v0-gamified-developer-app](https://vercel.com/aayam-regmis-projects/v0-gamified-developer-app)**
+---
 
-## Build your app
+## 🔥 Tech Stack
 
-Continue building your app on:
-
-**[https://v0.dev/chat/projects/sLdZW8c4XeI](https://v0.dev/chat/projects/sLdZW8c4XeI)**
-
-## How It Works
-
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+- **Next.js 14**
+- **TypeScript**
+- **Tailwind CSS**
+- **Framer Motion**
+- **LocalStorage** for session
